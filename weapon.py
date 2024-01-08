@@ -138,4 +138,3 @@ class Fireball(pygame.sprite.Sprite):
     
     def draw(self, surface):
         surface.blit(self.image, ((self.rect.centerx - int(self.image.get_width()/2)), self.rect.centery - int(self.image.get_height()/2)))
-        pygame.draw.rect(surface, constants.RED, self.rect, 1)

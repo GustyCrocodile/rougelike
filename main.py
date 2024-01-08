@@ -18,7 +18,7 @@ clock = pygame.time.Clock()
 
 
 # define game vars
-level = 9
+level = 1
 total_levels = 10
 start_game = False
 pause_game = False
